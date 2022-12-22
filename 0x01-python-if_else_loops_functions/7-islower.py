@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def islower(c):
    """funct that checks for lowercase characters"""
     c = ord(c)

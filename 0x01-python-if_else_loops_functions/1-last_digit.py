@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """check if a random number is > 5, < 6, != 0 and == 0"""
 import random
 number = random.randint(-10000, 10000)
