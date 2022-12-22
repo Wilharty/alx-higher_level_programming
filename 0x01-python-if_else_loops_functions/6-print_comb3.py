@@ -1,10 +1,9 @@
 #!/usr/bin/python3
+
+"""print all possible different combinations of two digits"""
 for i in range(0, 9):
-    for j in range(1, 10):
-        if i < j:
-             if i + j != 17:
-                  print(f"{i}{j}, ", end ="")
-             else:
-                  print(f"{i}{j}")
+    for j in range(i + 1, 10):
+        if i + j != 17:
+            print("{}{}".format(i, j), end = ", ")
         else:
-            continue
+            print("{}{}".format(i, j), end = "")
