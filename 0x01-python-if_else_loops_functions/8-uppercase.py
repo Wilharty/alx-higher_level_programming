@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def uppercase(str):
     """funct that prints a str in upper f by a new l"""
     for i in str:
